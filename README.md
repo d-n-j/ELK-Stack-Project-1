@@ -69,19 +69,15 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
          Ansible will quickly make changes to the system, rather than doing each one manually.
 The playbook implements the following tasks:
 - In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ... Install docker.io
-- ... Install pip3
-- ... Install Docker python module
-- ... Increase virtual memory
-- ... Download and launch docker
+- Install docker.io
+- Install pip3
+- Install Docker python module
+- Increase virtual memory
+- Download and launch docker
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-
-![](Images/docker%ps.jpg)
-=======
 ![](Images/docker%20ps.jpg)
->>>>>>> 6eb1d08d406bf0ea450740cdb9d647fff4d148ad
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
